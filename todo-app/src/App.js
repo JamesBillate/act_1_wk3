@@ -41,7 +41,7 @@ const TodoApp = () => {
           onChange={(e) => setNewTodo(e.target.value)}
           placeholder="Enter a new to-do"
         />
-        <AddButton onClick={addTodo}>Add dfd-Do</AddButton>
+        <AddButton onClick={addTodo}>Add To-Do</AddButton>
       </div>
       <div>
         {todos.map((todo) => (
